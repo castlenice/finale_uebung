@@ -1,0 +1,195 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+}
+
+img {
+    margin: 10px;
+    height: 50px;
+}
+
+nav p {
+    display: inline-flex;
+    margin: 1em;
+    text-decoration: underline;
+}
+
+
+
+/*.mission-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+       
+}
+
+
+.mission-container.picture-1 {
+    display: flex;
+    margin: 20px;
+    width: 1200px;
+    height: 700px;
+    background-image: url("./pictures/img-mission-background.webp");   
+}*/
+.box-grid {
+    display: grid;
+    /*display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;*/
+    justify-items: center; 
+  }
+
+.box-flex {
+    display: flex;
+    /*flex-flow: row nowrap;*/
+    /*align-items: flex-start;*/
+    justify-content: center;
+    /*padding: .5rem;*/
+    text-align: center;
+    /*font-size: 1.2rem;*/
+    align-items: center;  
+  }
+
+  .box-img {
+      width: 100%;
+      height: 700px;
+  }
+
+  .box-caption {
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    /*padding-top: 0rem;*/
+    background-color: black;
+  }
+
+
+
+/* Tea of the month - Section */
+
+
+.tea-caption {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+
+.tea-flex-container {
+    display: flex;
+    
+    align-content: center;
+    
+    
+}
+
+.tea-flex {
+    display: inline-flex;
+    min-width: 1000px;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#berry, #spiced, #donut, #myrtle, #bedfort {
+    height: 200px;
+    width: 300px;
+    margin-bottom: -1px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+/* Locations - Section */
+
+.loc-grid {
+    display: grid;
+    /*display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.5rem;*/
+    justify-items: center; 
+  }
+
+.loc-flex {
+    display: flex;
+    /*flex-flow: row nowrap;*/
+    /*align-items: flex-start;*/
+    justify-content: center;
+    /*padding: .5rem;*/
+    text-align: center;
+    /*font-size: 1.2rem;*/
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url(./pictures/img-locations-background.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+  }
+
+/*.loc-img {
+      width: 100%;
+      height: 700px;
+      object-fit: cover;
+  }*/
+
+.loc-caption  {
+
+    width: 1200px;
+    margin-top: 118px;
+    align-self: flex-start;
+    /*padding-top: 0rem;*/
+  }
+
+.loc-caption h2 {
+    margin-bottom: 15px;
+}
+
+.boxes {
+    display: inline-flex;
+    position: absolute;
+    align-content: center;
+      
+  }
+
+.box-1, .box-2, .box-3 {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    line-height: 40px;
+    background-color: black;
+    align-content: center;
+    border: 2px solid rgba(0, 0, 0, .1)
+  }
+
+
+/* Contact - Section */
+
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+h5 {
+    margin-top: 40px;
+}
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
